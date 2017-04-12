@@ -13,6 +13,7 @@
 		02BF6DF61E96113B0067560C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BF6DF41E96113B0067560C /* Main.storyboard */; };
 		02BF6DF81E96113B0067560C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BF6DF71E96113B0067560C /* Assets.xcassets */; };
 		02BF6DFB1E96113B0067560C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BF6DF91E96113B0067560C /* LaunchScreen.storyboard */; };
+		02BF6E041E9611770067560C /* RLThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BF6E031E9611770067560C /* RLThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		02BF6DF71E96113B0067560C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02BF6DFA1E96113B0067560C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02BF6DFC1E96113B0067560C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02BF6E021E9611770067560C /* RLThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLThread.h; sourceTree = "<group>"; };
+		02BF6E031E9611770067560C /* RLThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				02BF6DEF1E96113B0067560C /* AppDelegate.m */,
 				02BF6DF11E96113B0067560C /* ViewController.h */,
 				02BF6DF21E96113B0067560C /* ViewController.m */,
+				02BF6E021E9611770067560C /* RLThread.h */,
+				02BF6E031E9611770067560C /* RLThread.m */,
 				02BF6DF41E96113B0067560C /* Main.storyboard */,
 				02BF6DF71E96113B0067560C /* Assets.xcassets */,
 				02BF6DF91E96113B0067560C /* LaunchScreen.storyboard */,
@@ -110,6 +115,7 @@
 				TargetAttributes = {
 					02BF6DE71E96113B0067560C = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8AQRV44EP3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -153,6 +159,7 @@
 				02BF6DF31E96113B0067560C /* ViewController.m in Sources */,
 				02BF6DF01E96113B0067560C /* AppDelegate.m in Sources */,
 				02BF6DED1E96113B0067560C /* main.m in Sources */,
+				02BF6E041E9611770067560C /* RLThread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8AQRV44EP3;
 				INFOPLIST_FILE = RunloopPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.partyspy.RunloopPlayer;
@@ -281,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8AQRV44EP3;
 				INFOPLIST_FILE = RunloopPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.partyspy.RunloopPlayer;
